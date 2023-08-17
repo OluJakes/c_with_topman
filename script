@@ -1,0 +1,4 @@
+#!/bin/bash
+file='register'
+gcc $FILE -o $file
+echo the file $file has been generated
