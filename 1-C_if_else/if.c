@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 
 /*main - entry point.
  *
@@ -8,11 +11,13 @@
 
 int main(void)
 {
-	int num;
-	int num1;
-	int num2;
+	srand (time(0));
 
-	num = (num1 + num2)/num1;
+	int num;
+	int num1 = 99;
+	int num2 = -99;
+
+	num = rand() % (num1 - num2 + 1) + num2;
 
 	if (num > 5)
 	printf("%d is greater than five\n", num);
