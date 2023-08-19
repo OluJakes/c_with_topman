@@ -16,7 +16,9 @@ int main(void)
 	int num1 = 99;
 	int num2 = -99;
 
-	for (int j = 0; j < 10; j++)
+	int j = 0;
+	while (j < 10)
+
 	{
 		num = rand() % (num1 - num2 + 1) + num2;
 		printf("%d\n", num);
