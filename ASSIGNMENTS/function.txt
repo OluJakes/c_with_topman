@@ -1,0 +1,5 @@
+Write the following functions:
+1. One that takes a name as an argument and says hello to the name
+2. One that takes a single argument and prints the times table (up to 12) for that particular number
+3. One that counts from 1 to any number given to it as the argument
+4. One that satisfies the FizzBuzz task
