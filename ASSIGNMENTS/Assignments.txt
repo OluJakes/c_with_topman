@@ -1,7 +1,10 @@
 Write the following functions:
+0. Generate random numbers in C that is not more than 2 digits
 1. One that takes a name as an argument and says hello to the name
+DONE in - 
 2. One that takes a single argument and prints the times table (up to 12) for that particular number
 3. One that counts from 1 to any number given to it as the argument
 4. One that satisfies the FizzBuzz task
+5. Achieve FizzBuzz in separate function, while it takes a number as an argument and prints from 1 to that number.
 
 
