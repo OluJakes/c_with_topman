@@ -1,2 +1,2 @@
 #include <stdio.h>
-int add(int a, int b);
+char *add(int a, int b);
