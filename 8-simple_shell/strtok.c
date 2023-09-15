@@ -6,7 +6,12 @@ int main(void)
 	char bash_cmd[] = "ls -l";
 	char *delim = " ";
 
-	strtok
+	char *segment = strtok(bash_cmd, delim);
+	while (segment != NULL)
+	{
+		printf("%s\n", segment);
+		segment = strtok(NULL, delim);
+	}
 	
 	/*
 	char str[] = "We are learning together";
