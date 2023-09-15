@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char bash_cmd[] = "ls -l";
+	char bash_cmd[] = "ls -l -a -m -p -v";
 	char *delim = " ";
 
 	char *segment = strtok(bash_cmd, delim);
